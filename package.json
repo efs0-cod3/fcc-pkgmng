@@ -1,15 +1,23 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"author": "erick",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
+  "name": "fcc-pkgmng",
+  "version": "1.0.0",
+  "description": "fcc",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efs0-cod3/fcc-pkgmng.git"
+  },
+  "author": "erick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efs0-cod3/fcc-pkgmng/issues"
+  },
+  "homepage": "https://github.com/efs0-cod3/fcc-pkgmng#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
